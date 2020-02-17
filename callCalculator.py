@@ -37,7 +37,7 @@ class CalculatorMainWindow(QMainWindow, Ui_CalculatorMainWindow):
         # Setup actions
         self.pushButton_c.pressed.connect(self.reset)
 
-        self.setWindowIcon(QIcon('fucku.png'))
+        self.setWindowIcon(QIcon('anyicon.png'))
         self.reset()
         self.show()
 
